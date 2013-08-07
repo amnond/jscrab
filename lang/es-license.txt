@@ -1,0 +1,100 @@
+_________________________________________________________________________
+
+This dictionary has been modified to Windows format for use with
+WinEdt by Juan I. Montijano and his colleagues. The dictionary is
+included in WinEdt's dictionary collection on CTAN with the kind
+permission of its author Juan L. Varona, who originally compiled it
+for use with Excalibur on Macintosh. Please read the information
+below for the terms under which this dictionary can be used.
+
+==================================================================
+
+L\'EEME: Acerca del diccionario en espa\~nol.
+
+El diccionario en espa\~nol ha sido elaborado por
+    Juan L. Varona
+    Dpto. de Matem\'aticas y Computaci\'on
+    Universidad de La Rioja
+    Edificio J. L. Vives
+    Calle Luis de Ulloa s/n
+    26004 Logro\~no, SPAIN
+    e-mail: jvarona@siur.unirioja.es
+
+Este diccionario y la colecci\'on de palabras que contiene pueden
+distribuirse, modificados o no, sin ninguna restricci\'on, siempre que
+no se omita una referencia al autor y esta rese\~na (modificada, si es
+necesario, indicando los cambios efectuados en el diccionario). Asimismo,
+puede usarse en conjunci\'on con cualquier otro programa, comercial o no,
+con dos \'unicas condiciones:
+    (1) Que en el citado programa se reconozca, en un lugar visible del
+programa o del manual, la procedencia del diccionario.
+    (2) Que se env\'{\i}e al autor, por correo ordinario, un certificado
+indicando que esta colecci\'on de palabras se usa en conjunci\'on con
+el programa.
+
+Estas condiciones s\'olo tienen objetivos curriculares y de
+reconocimiento al trabajo realizado, as\'{\i} como poder seguir si
+ha sido de utilidad para otros desarrollos. He empleado un mont\'on
+de horas en recopilar este diccionario y me gustar\'{\i}a saber que
+no ha sido un tiempo malgastado.
+
+Por lo que conozco, no hay ning\'un otro diccionario en espa\~nol
+para ordenador que no sea comercial y que sea lo suficientemente
+amplio, al menos con formato ASCII de lista de palabras. As\'{\i}
+que espero que este diccionario resulte \'util a la mayor cantidad
+de gente posible, y que pueda servir como base para futuras
+mejoras.
+
+Por favor, si alguien detecta alguna errata, que me lo comunique a
+la direcci\'on jvarona@siur.unirioja.es. Estoy seguro de que hay
+montones de palabras reconocidas por la Real Academia Espa\~nola de
+la Lengua, o no reconocidas pero usuales, que no aparecen en el
+diccionario. Parece imposible elaborar uno lo suficientemente
+completo pero, si alguien descubre alguna palabra muy usual no
+recogida en el diccionario y me lo comunica, la a\~nadir\'e en
+futuras mejoras.
+
+==================================================================
+
+README: About the Spanish dictionary.
+
+The Spanish dictionary has been elaborated by
+    Juan L. Varona
+    Dpto. de Matem\'aticas y Computaci\'on
+    Universidad de La Rioja
+    Calle Luis de Ulloa s/n
+    26004 Logro\~no, SPAIN
+    e-mail: jvarona@siur.unirioja.es
+
+This dictionary and the collection of words that it contains can be
+distributed, modified or not, with no restriction, provided a
+reference is made to the author and also to this description
+(modified is necessary to point the changes made in the
+dictionary). Also, it may be used in conjunction with any other
+program, commercial or otherwise, with just two conditions:
+    (1) The origin of the dictionary should be recognized in a
+visible place of the program itself or the manual.
+    (2) A certificate should be submitted to the author by ordinary
+mail indicating that this collection of words is being used in
+conjunction with the program.
+
+These conditions have only curricular purposes and of
+acknowledgment to the author's work. They will also allow him to
+find out if it has been useful elsewhere. I have spent quite a lot
+of time in compiling this dictionary and would be pleased to know
+that it has not been a wasted time.
+
+As far as I know, no other large enough, non commercial Spanish
+dictionary is available for a computer, at least in the format of a
+list of words in ASCII. So I hope this dictionary will be useful to
+as many people as possible and will serve as a basis for eventual
+improvements.
+
+If you detect any mistake, please tell me at the e-mail address
+jvarona@siur.unirioja.es. I am sure that lots of words which have
+been admitted by the Real Academia Espa\~nola de la Lengua do not
+figure in the dictionary. It looks impossible to elaborate a
+complete enough one, but if you find that some usual word is not
+present in the dictionary, please tell me and I will add it in
+future improvements.
+_________________________________________________________________________

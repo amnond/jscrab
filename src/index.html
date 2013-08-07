@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<script type="text/javascript">
+var t1 = +new Date();
+function logit( str )
+{
+    window.console && console.log( str );
+}
+</script>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/submodal.css" />
+<script type="text/javascript" src="submodal.js"></script>
+<!--
+<script type="text/javascript" src="../lang/es_wordlist.js"></script>
+<script type="text/javascript" src="../lang/es_letters.js"></script>
+<script type="text/javascript" src="../lang/es_translate.js"></script>
+ -->
+
+<script type="text/javascript" src="../lang/en_wordlist.js"></script>
+<script type="text/javascript" src="../lang/en_defs.js"></script>
+<script type="text/javascript" src="../lang/en_letters.js"></script>
+<script type="text/javascript" src="../lang/en_translate.js"></script>
+
+
+<!--
+<script type="text/javascript" src="../lang/ru_wordlist.js"></script>
+<script type="text/javascript" src="../lang/ru_letters.js"></script>
+<script type="text/javascript" src="../lang/ru_translate.js"></script>
+ -->
+
+<script type="text/javascript" src="sizzle.js"></script>
+<script type="text/javascript" src="redipsdrag.js"></script>
+<script type="text/javascript" src="bonuses.js"></script>
+<script type="text/javascript" src="ui.js"></script>
+<script type="text/javascript" src="engine.js"></script>
+<script type="text/javascript">
+function _init()
+{
+    if ( ! document.querySelectorAll ) document.querySelectorAll = Sizzle;
+    init( "idBoard" );
+}
+</script>
+<title>JScrab</title>
+</head>
+<body style='-moz-user-select:none; -webkit-user-select:none;' onLoad="_init()" onselectstart='return false;'>
+<div id="uidiv"></div>
+<!-- <div id="uidiv"></div> -->
+</body>
+</html>
