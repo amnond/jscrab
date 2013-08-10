@@ -348,7 +348,7 @@ function onPlayerSwapped( keep, swap )
     if (swap.length === 0) {
         g_bui.setPlayerRack( keep );
         // initialize redisp again
-        //g_bui.makeTilesFixed();
+        g_bui.makeTilesFixed();
         return;
     }
 
