@@ -1,7 +1,7 @@
-JScrab - Scrabble Game in JavaScript
-====================================
+JScrab - Fast Scrabble(TM) type Game in JavaScript
+==================================================
 
-This is an implementation of a JavaScript game played against the computer (browser) with a very fast engine. It works well on every browser I've tested (Chrome, Firefox, Safari, IE6+, Opera) and operating systems (Windows, Mac OS/X, Linux)
+This is an implementation in pure JavaScript played against the computer (browser) with a very fast engine. It works well on every browser I've tested (Chrome, Firefox, Safari, IE6+, Opera) and operating systems (Windows, Mac OS/X, Linux)
 
 To start the game, you can go directly to the web page at http://amnond.github.io/jscrab or download the code and open src/index.html in your browser.
 
