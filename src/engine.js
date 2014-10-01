@@ -158,9 +158,8 @@ function checkValidPlacement( placement )
     var dy = 0;
 
     // In case of first placecement
-    var fp = g_bui.getStartXY();
-    var mfpdx = 2;
-    var mfpdy = 2;
+    var sp = g_bui.getStartXY();
+    var onStar = false;
 
     var x,y,xy;
 
@@ -173,10 +172,8 @@ function checkValidPlacement( placement )
         x = pl.x;
         y = pl.y;
 
-        var fpdx = Math.abs(x - fp.x);
-        var fpdy = Math.abs(y - fp.y);
-        if (mfpdx > fpdx) mfpdx = fpdx;
-        if (mfpdy > fpdy) mfpdy = fpdy;
+        if (x==sp.x && y==sp.y)
+            onStar = true;
 
         xy = x+"_"+y;
         isplacement[xy] = pl;
@@ -203,7 +200,7 @@ function checkValidPlacement( placement )
     if (dx==1 && dy==1)
         return {played:"", msg:t("word must be horizontal or vertical.") };
 
-    if (g_board_empty && (mfpdx+mfpdy)>1)
+    if (g_board_empty && !onStar)
         return {played:"", msg:t("first word must be on the star.") };
 
     var mbx = g_board.length;
@@ -312,6 +309,13 @@ function checkValidPlacement( placement )
     if (worderrs !== "") {
         worderrs += t(" not found in dictionary.");
         return { played:"", msg:worderrs };
+    }
+
+    if (!g_board_empty && oscore == 0 && word.length == placement.length) {
+        // No orthogonal words created and no extension to existing
+        // word created - this means that the new word isn't connected
+        // to anything. 
+        return { played:"", msg:t("word not connected.") };
     }
 
     //logit( "created word is:"+ word);
